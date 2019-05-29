@@ -11,6 +11,7 @@ mkdir build && cd build # Create build directory
 cmake ..                # Create Makefiles using CMake
 make
 sudo make install
+sudo ldconfig
 
 Usage
 -----
